@@ -43,7 +43,8 @@ docs = [
 requires = [
     "setuptools>=61.2",
     "setuptools_scm[toml]>=3.4",
-    "numpy>=1.25",
+    "wheel",
+    "numpy>=2.0.0rc1",
 ]
 build-backend = "setuptools.build_meta"
 
